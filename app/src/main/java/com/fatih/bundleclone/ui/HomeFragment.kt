@@ -47,7 +47,7 @@ class HomeFragment: Fragment(R.layout.fragment_home) {
         binding.homeFragmentRview.layoutManager=StaggeredGridLayoutManager(2,VERTICAL)
         binding.homeFragmentRview.adapter=adapter
         binding.menuImageView.setOnClickListener {
-            binding.drawerLayout.openDrawer(GravityCompat.END,true)
+            binding.drawerLayout.openDrawer(GravityCompat.START,true)
         }
     }
 }

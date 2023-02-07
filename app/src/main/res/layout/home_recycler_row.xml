@@ -10,8 +10,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="?selectableItemBackground"
         android:paddingStart="10dp"
+
         android:paddingEnd="10dp"
         android:paddingBottom="10dp"
         android:orientation="vertical">
@@ -19,8 +19,10 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:orientation="vertical"
-            android:background="@color/white"
             android:paddingBottom="15dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/selectable_white_bg"
             android:layout_height="wrap_content">
 
             <ImageView
@@ -51,7 +53,7 @@
                 android:layout_height="wrap_content"
                 android:text="Santiment : Küçük Bitcoin Adresleri Yeniden Canlanıyor! Boğaya Hazırlık Mı Başladı"
                 android:layout_marginStart="10dp"
-                android:maxLines="5"
+                android:maxLines="8"
                 android:ellipsize="end"
                 android:textSize="17sp"
                 android:textStyle="bold"
