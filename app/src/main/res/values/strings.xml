@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BundleClone</string>
+    <string name="giris_yap">Giriş yap</string>
+    <string name="kripto_para">KRIPTO PARA</string>
+    <string name="marquiText">Türkiye\'yi sarsan depremle ilgili tüm gelişmeler Bundle Live\'da</string>
+    <string name="usd">USD</string>
+    <string name="t_m">TÜMÜ</string>
+    <string name="kripto_pa">Kripto Para</string>
+    <string name="kaynak_ekle">Kaynak Ekle</string>
+    <string name="bundle">Bundle</string>
+    <string name="bitcoin_sistemi">BITCOIN SISTEMI</string>
+</resources>

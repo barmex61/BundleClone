@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="news"
+            type="com.fatih.bundleclone.entities.local.News" />
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?selectableItemBackground"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:paddingBottom="10dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:paddingBottom="15dp"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="115dp"
+                android:src="@drawable/news"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:id="@+id/home_fragment_row_img"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+               />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bitcoin_sistemi"
+                android:layout_marginStart="10dp"
+                android:textSize="11sp"
+                android:textStyle="bold"
+                android:id="@+id/home_fragment_row_title"
+                android:textColor="#747475"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Santiment : Küçük Bitcoin Adresleri Yeniden Canlanıyor! Boğaya Hazırlık Mı Başladı"
+                android:layout_marginStart="10dp"
+                android:maxLines="5"
+                android:ellipsize="end"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:id="@+id/home_fragment_row_content"
+                android:textColor="@color/solidBlack"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 Saat"
+                android:id="@+id/home_fragment_row_time"
+                android:layout_marginStart="10dp"
+                android:textSize="11sp"
+                android:textColor="#747475"
+                android:layout_marginTop="10dp"
+                />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</layout>
+
